@@ -1,0 +1,8 @@
+* Possible Parts
+
+| Qty | Part #          | Description            |
+|-----+-----------------+------------------------|
+|   1 | PAM2804         | LED Driver             |
+|   1 | RL1206FR-070R2L | Current Sense Resistor |
+
+
