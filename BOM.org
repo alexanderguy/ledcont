@@ -1,8 +1,8 @@
 * Possible Parts
 
-| Qty | Part #          | Description            |
-|-----+-----------------+------------------------|
-|   1 | PAM2804         | LED Driver             |
-|   1 | RL1206FR-070R2L | Current Sense Resistor |
-
+| Qty | Part #          | Description                      |
+|-----+-----------------+----------------------------------|
+|   1 | PAM2804         | LED Driver                       |
+|   1 | RL1206FR-070R2L | Current Sense Resistor           |
+|   1 | P091S-FC20BR10K | 10k Potentiometer w/ SPST Switch |
 
