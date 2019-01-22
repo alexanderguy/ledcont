@@ -5,4 +5,5 @@
 |   1 | PAM2804         | LED Driver                       |
 |   1 | RL1206FR-070R2L | Current Sense Resistor           |
 |   1 | P091S-FC20BR10K | 10k Potentiometer w/ SPST Switch |
-
+|   1 | LQH43PN4R7M26L  | Inductor                         |
+|   2 | 1984617         | 2 Pos Terminal Block             |
