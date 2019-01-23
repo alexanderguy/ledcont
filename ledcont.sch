@@ -213,7 +213,7 @@ L ledcont:R_POT_SPST RV1
 U 2 1 5C458ED0
 P 4950 2350
 F 0 "RV1" H 5088 2396 50  0000 L CNN
-F 1 "SPST" H 5088 2305 50  0001 L CNN
+F 1 "10k" H 5088 2305 50  0001 L CNN
 F 2 "ledcont:P091_S" H 4950 2350 50  0001 C CNN
 F 3 "~" H 4950 2350 50  0001 C CNN
 F 4 "P091S-FC20BR10K" H 0   0   50  0001 C CNN "Part"
@@ -228,14 +228,14 @@ Wire Wire Line
 	6100 2400 6100 3050
 $Comp
 L Power_Management:TSM102A U2
-U 1 1 5C4640C2
+U 4 1 5C4640C2
 P 5700 3350
 F 0 "U2" H 5700 3075 50  0000 C CNN
 F 1 "TSM102A" H 5700 2984 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5700 3350 50  0001 C CNN
 F 3 "http://www.st.com/resource/en/datasheet/tsm102.pdf" H 5750 3550 50  0001 C CNN
 F 4 "TSM102AIDT" H 0   0   50  0001 C CNN "Part"
-	1    5700 3350
+	4    5700 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -447,10 +447,6 @@ Wire Wire Line
 	7250 4200 7150 4200
 Wire Wire Line
 	7150 4200 7150 4400
-Wire Wire Line
-	7150 4400 7950 4400
-Wire Wire Line
-	7950 4400 7950 4100
 $Comp
 L Device:R R7
 U 1 1 5C48EF6F
@@ -478,7 +474,7 @@ Wire Wire Line
 	7950 5150 7950 4850
 Wire Wire Line
 	7950 4850 7850 4850
-Text Notes 7600 5050 0    50   ~ 0
+Text Notes 7600 4300 0    50   ~ 0
 Unused
 Text Notes 3400 3750 0    50   ~ 0
 Unused
@@ -495,30 +491,20 @@ F 3 "" H 2550 4000 50  0001 C CNN
 $EndComp
 $Comp
 L Power_Management:TSM102A U2
-U 4 1 5C4AD8B0
+U 1 1 5C4AD8B0
 P 3250 3600
 F 0 "U2" H 3250 3967 50  0000 C CNN
 F 1 "TSM102A" H 3250 3876 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3250 3600 50  0001 C CNN
 F 3 "http://www.st.com/resource/en/datasheet/tsm102.pdf" H 3300 3800 50  0001 C CNN
 F 4 "TSM102AIDT" H 0   0   50  0001 C CNN "Part"
-	4    3250 3600
+	1    3250 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2950 3500 2550 3500
-Text GLabel 2700 3800 1    50   Input ~ 0
-Vref
 Wire Wire Line
-	2550 3500 2550 4000
-Wire Wire Line
-	2850 3900 2700 3900
-Wire Wire Line
-	2700 3900 2700 3800
-Wire Wire Line
-	2950 3700 2850 3700
-Wire Wire Line
-	2850 3700 2850 3900
+	2550 3500 2550 3700
 Text Notes 2150 3150 0    50   ~ 0
 XXX -\nLet's always drive the output low?  Is this right?
 Wire Notes Line
@@ -655,7 +641,6 @@ Connection ~ 6100 3350
 Wire Wire Line
 	6100 3750 6100 3850
 Connection ~ 7050 4000
-Connection ~ 7950 4100
 Wire Wire Line
 	7950 4100 7850 4100
 Wire Wire Line
@@ -670,10 +655,6 @@ Wire Wire Line
 	7250 3050 7150 3050
 Wire Wire Line
 	7150 3050 7150 3450
-Wire Wire Line
-	7150 3450 7950 3450
-Wire Wire Line
-	7950 3450 7950 4100
 Text GLabel 5300 3550 3    50   Input ~ 0
 Vref
 Wire Wire Line
@@ -724,4 +705,28 @@ F 4 "PAM2804AAB010" H 0   0   50  0001 C CNN "Part"
 	1    6550 2250
 	1    0    0    -1  
 $EndComp
+Text Label 5100 2800 0    50   ~ 0
+Vswitch
+Text Label 5400 2100 0    50   ~ 0
+Vin
+Text Label 7100 2400 0    50   ~ 0
+Vfb
+Wire Wire Line
+	7150 4400 7950 4400
+Wire Wire Line
+	7950 4100 7950 4400
+Wire Wire Line
+	8050 3450 8050 4850
+Wire Wire Line
+	8050 4850 7950 4850
+Wire Wire Line
+	7150 3450 8050 3450
+Connection ~ 7950 4850
+Text Label 6100 2900 0    50   ~ 0
+Ven
+Wire Wire Line
+	2950 3700 2550 3700
+Connection ~ 2550 3700
+Wire Wire Line
+	2550 3700 2550 4000
 $EndSCHEMATC
