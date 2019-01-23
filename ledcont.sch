@@ -503,8 +503,6 @@ F 4 "TSM102AIDT" H 0   0   50  0001 C CNN "Part"
 $EndComp
 Wire Wire Line
 	2950 3500 2550 3500
-Wire Wire Line
-	2550 3500 2550 3700
 Text Notes 2150 3150 0    50   ~ 0
 XXX -\nLet's always drive the output low?  Is this right?
 Wire Notes Line
@@ -662,7 +660,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3450 5300 3550
 Wire Wire Line
-	4700 2800 4700 3500
+	4700 2800 4700 3000
 Connection ~ 5000 2800
 Connection ~ 4700 3500
 Wire Wire Line
@@ -725,8 +723,18 @@ Connection ~ 7950 4850
 Text Label 6100 2900 0    50   ~ 0
 Ven
 Wire Wire Line
-	2950 3700 2550 3700
-Connection ~ 2550 3700
+	2550 3500 2550 4000
 Wire Wire Line
-	2550 3700 2550 4000
+	2950 3700 2850 3700
+Wire Wire Line
+	2850 3700 2850 3900
+Wire Wire Line
+	2850 3900 4100 3900
+Wire Wire Line
+	4100 3900 4100 3000
+Wire Wire Line
+	4100 3000 4700 3000
+Connection ~ 4700 3000
+Wire Wire Line
+	4700 3000 4700 3500
 $EndSCHEMATC
