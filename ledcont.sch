@@ -503,8 +503,6 @@ F 4 "TSM102AIDT" H 0   0   50  0001 C CNN "Part"
 $EndComp
 Wire Wire Line
 	2950 3500 2550 3500
-Text Notes 2150 3150 0    50   ~ 0
-XXX -\nLet's always drive the output low?  Is this right?
 Wire Notes Line
 	2300 1750 2300 2650
 Wire Notes Line
