@@ -206,7 +206,7 @@ F 2 "ledcont:P091_S" H 6750 4200 50  0001 C CNN
 F 3 "~" H 6750 4200 50  0001 C CNN
 F 4 "P091S-FC20BR10K" H 0   0   50  0001 C CNN "Part"
 	1    6750 4200
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L ledcont:R_POT_SPST RV1
