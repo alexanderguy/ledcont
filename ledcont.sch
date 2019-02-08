@@ -526,6 +526,7 @@ F 0 "U2" H 6400 3717 50  0000 C CNN
 F 1 "MCP6002-xSN" H 6400 3626 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6400 3350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 3350 50  0001 C CNN
+F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
 	1    6400 3350
 	1    0    0    -1  
 $EndComp
@@ -537,6 +538,7 @@ F 0 "U2" H 8150 4467 50  0000 C CNN
 F 1 "MCP6002-xSN" H 8150 4376 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8150 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8150 4100 50  0001 C CNN
+F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
 	2    8150 4100
 	1    0    0    -1  
 $EndComp
@@ -548,6 +550,7 @@ F 0 "U2" H 5058 4346 50  0000 L CNN
 F 1 "MCP6002-xSN" H 5058 4255 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5100 4300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5100 4300 50  0001 C CNN
+F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
 	3    5100 4300
 	1    0    0    -1  
 $EndComp
@@ -559,6 +562,7 @@ F 0 "D2" H 4300 4236 50  0000 C CNN
 F 1 "TLV431" H 4300 4145 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 4200 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 4300 4350 50  0001 C CIN
+F 4 "TLV431AFTA" H 4300 4350 50  0001 C CNN "Part"
 	1    4300 4350
 	0    -1   -1   0   
 $EndComp
@@ -664,6 +668,7 @@ F 0 "RV2" V 7493 3050 50  0000 C CNN
 F 1 "5k" V 7584 3050 50  0000 C CNN
 F 2 "ledcont:TC33X" H 7700 3050 50  0001 C CNN
 F 3 "~" H 7700 3050 50  0001 C CNN
+F 4 "TC33X-2-502E" V 7700 3050 50  0001 C CNN "Part"
 	1    7700 3050
 	0    -1   1    0   
 $EndComp
