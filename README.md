@@ -1,5 +1,7 @@
 # Dimming LED Controller
 
+![Schematic Preview](./schematic.png)
+
 This is a basic dimming LED controller, designed for being run from one or more batteries (~3.25-6 volts).  It includes:
 
 - Analog dimming.
