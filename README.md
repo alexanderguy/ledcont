@@ -9,6 +9,8 @@ This is a basic dimming LED controller, designed for being run from one or more 
 - Able to run at up to 1A.
 - Two-layer board.
 
+It takes about 1.5 hours to assemble if you're: building your first board, finding parts in the process, binging The Americans.
+
 # Modifications
 There are a number of modifications possible:
 
