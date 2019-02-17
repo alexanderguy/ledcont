@@ -1,0 +1,27 @@
+C1	10uF	Device:C	Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Unpolarized capacitor		CL31B106KOHNFNE
+C2	1uF	Device:C	Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Unpolarized capacitor		CL31B105MAHNNNE
+C3	.1uF	Device:C	Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Unpolarized capacitor		CL31B104KBCNNNC
+C4	.1uF	Device:C	Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Unpolarized capacitor		CL31B104KBCNNNC
+C5	10uF	Device:C	Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Unpolarized capacitor		CL31B106KOHNFNE
+C6	10uF	Device:C	Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Unpolarized capacitor		CL31B106KOHNFNE
+D1	D_Schottky	Device:D_Schottky	Diode_SMD:D_SOD-123F	Schottky diode		NRVTS245ESFT1G
+D2	TLV431	Reference_Voltage:TL431DBZ	Package_TO_SOT_SMD:SOT-23	Shunt Regulator, SOT-23		TLV431AFTA
+J1	Screw_Terminal_01x02	Connector:Screw_Terminal_01x02	TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal	Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)		1984617
+J2	Screw_Terminal_01x02	Connector:Screw_Terminal_01x02	TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal	Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)		1984617
+L1	4.7uH	Device:L	Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder	Inductor		LQH43PN4R7M26L
+R1	0	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-070RL
+R2	NP	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		
+R3	1k	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-071KL
+R4	10k	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-0710KL
+R5	10k	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-0710KL
+R6	0	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-070RL
+R7	6.98k	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-076K98L
+R8	1k	Device:R	Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Resistor		RC1206FR-071KL
+R9	0.200	Device:R	Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder	Resistor		PT1206FR-070R2L
+R10	10k	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-0710KL
+R11	0	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-070RL
+R12	0	Device:R	Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder	Resistor		RC0603FR-070RL
+RV1	10k	ledcont:R_POT_SPST	ledcont:P091_S	Potentiometer with Switch		P091S-FC20BR10K
+RV2	5k	Device:R_POT_TRIM	ledcont:TC33X	Trim-potentiometer		TC33X-2-502E
+U1	PAM2804	ledcont:PAM2804	Package_TO_SOT_SMD:TSOT-23-5_HandSoldering			PAM2804AAB010
+U2	MCP6002-xSN	Amplifier_Operational:MCP6002-xSN	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	1MHz, Low-Power Op Amp, SOIC-8		MCP6002T-I/SN
