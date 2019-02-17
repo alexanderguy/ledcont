@@ -24,6 +24,7 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8530 3050 50  0
 F 3 "~" H 8600 3050 50  0001 C CNN
 F 4 "1%" H 700 0   50  0001 C CNN "Tolerance"
 F 5 "RC1206FR-071KL" H 700 0   50  0001 C CNN "Part"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    8600 3050
 	0    -1   -1   0   
 $EndComp
@@ -37,6 +38,7 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9330 3300 50  0
 F 3 "~" H 9400 3300 50  0001 C CNN
 F 4 "PT1206FR-070R2L" H 700 0   50  0001 C CNN "Part"
 F 5 "1%" H 700 0   50  0001 C CNN "Tolerance"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    9400 3300
 	1    0    0    -1  
 $EndComp
@@ -62,6 +64,7 @@ F 1 "10uF" H 8965 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8888 2200 50  0001 C CNN
 F 3 "~" H 8850 2350 50  0001 C CNN
 F 4 "CL31B106KOHNFNE" H 700 0   50  0001 C CNN "Part"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Vendor"
 	1    8850 2350
 	1    0    0    -1  
 $EndComp
@@ -74,6 +77,7 @@ F 1 "4.7uH" V 8649 2100 50  0000 C CNN
 F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 8550 2100 50  0001 C CNN
 F 3 "~" H 8550 2100 50  0001 C CNN
 F 4 "LQH43PN4R7M26L" H 700 0   50  0001 C CNN "Part"
+F 5 "Murata" H 0   0   50  0001 C CNN "Vendor"
 	1    8550 2100
 	0    -1   -1   0   
 $EndComp
@@ -110,6 +114,7 @@ F 1 "10uF" H 6486 2305 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6638 2200 50  0001 C CNN
 F 3 "~" H 6600 2350 50  0001 C CNN
 F 4 "CL31B106KOHNFNE" H 700 0   50  0001 C CNN "Part"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Vendor"
 	1    6600 2350
 	1    0    0    -1  
 $EndComp
@@ -139,6 +144,7 @@ F 1 "Screw_Terminal_01x02" H 9680 2001 50  0001 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 9600 2100 50  0001 C CNN
 F 3 "~" H 9600 2100 50  0001 C CNN
 F 4 "1984617" H 700 0   50  0001 C CNN "Part"
+F 5 "Phoenix Contact" H 0   0   50  0001 C CNN "Vendor"
 	1    9600 2100
 	1    0    0    -1  
 $EndComp
@@ -151,6 +157,7 @@ F 1 "Screw_Terminal_01x02" H 2670 2226 50  0001 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 2750 2100 50  0001 C CNN
 F 3 "~" H 2750 2100 50  0001 C CNN
 F 4 "1984617" H 0   0   50  0001 C CNN "Part"
+F 5 "Phoenix Contact" H 0   0   50  0001 C CNN "Vendor"
 	1    2750 2100
 	-1   0    0    -1  
 $EndComp
@@ -205,6 +212,7 @@ F 1 "10k" H 7180 4045 50  0000 R CNN
 F 2 "ledcont:P091_S" H 7250 4000 50  0001 C CNN
 F 3 "~" H 7250 4000 50  0001 C CNN
 F 4 "P091S-FC20BR10K" H 500 -200 50  0001 C CNN "Part"
+F 5 "TT Electronics" H 0   0   50  0001 C CNN "Vendor"
 	1    7250 4000
 	1    0    0    1   
 $EndComp
@@ -217,6 +225,7 @@ F 1 "10k" H 5088 2305 50  0001 L CNN
 F 2 "ledcont:P091_S" H 4950 2350 50  0001 C CNN
 F 3 "~" H 4950 2350 50  0001 C CNN
 F 4 "P091S-FC20BR10K" H 0   0   50  0001 C CNN "Part"
+F 5 "TT Electronics" H 0   0   50  0001 C CNN "Vendor"
 	2    4950 2350
 	1    0    0    -1  
 $EndComp
@@ -232,6 +241,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 3500 50  0
 F 3 "~" H 4250 3500 50  0001 C CNN
 F 4 "1%" H -200 0   50  0001 C CNN "Tolerance"
 F 5 "RC0603FR-071KL" V 4250 3500 50  0001 C CNN "Part"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    4250 3500
 	0    -1   1    0   
 $EndComp
@@ -247,6 +257,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4150 50  0
 F 3 "~" H 4000 4150 50  0001 C CNN
 F 4 "1%" H 4000 4150 50  0001 C CNN "Tolerance"
 F 5 "RC0603FR-070RL" H -200 0   50  0001 C CNN "Part"
+F 6 "Yageo" H 4000 4150 50  0001 C CNN "Vendor"
 	1    4000 4150
 	1    0    0    1   
 $EndComp
@@ -258,7 +269,7 @@ F 0 "R2" H 3930 4504 50  0000 R CNN
 F 1 "NP" H 3930 4595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4550 50  0001 C CNN
 F 3 "~" H 4000 4550 50  0001 C CNN
-F 4 "1%" H -200 0   50  0001 C CNN "Tolerance"
+F 4 "" H -200 0   50  0001 C CNN "Tolerance"
 F 5 "" H -200 0   50  0001 C CNN "Part"
 	1    4000 4550
 	1    0    0    1   
@@ -321,6 +332,7 @@ F 1 "0" H 7320 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7180 3500 50  0001 C CNN
 F 3 "~" H 7250 3500 50  0001 C CNN
 F 4 "RC0603FR-070RL" H 500 -300 50  0001 C CNN "Part"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    7250 3500
 	1    0    0    -1  
 $EndComp
@@ -366,6 +378,7 @@ F 1 "D_Schottky" H 3400 1975 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 3400 2100 50  0001 C CNN
 F 3 "~" H 3400 2100 50  0001 C CNN
 F 4 "NRVTS245ESFT1G" H 0   0   50  0001 C CNN "Part"
+F 5 "On Semiconductor" H 0   0   50  0001 C CNN "Vendor"
 	1    3400 2100
 	-1   0    0    1   
 $EndComp
@@ -378,6 +391,7 @@ F 1 "10uF" H 3636 2205 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3788 2100 50  0001 C CNN
 F 3 "~" H 3750 2250 50  0001 C CNN
 F 4 "CL31B106KOHNFNE" H 0   0   50  0001 C CNN "Part"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Vendor"
 	1    3750 2250
 	1    0    0    -1  
 $EndComp
@@ -401,6 +415,7 @@ F 1 "1uF" H 4036 2205 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4188 2100 50  0001 C CNN
 F 3 "~" H 4150 2250 50  0001 C CNN
 F 4 "CL31B105MAHNNNE" H 0   0   50  0001 C CNN "Part"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Vendor"
 	1    4150 2250
 	1    0    0    -1  
 $EndComp
@@ -413,6 +428,7 @@ F 1 ".1uF" H 4486 2205 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4638 2100 50  0001 C CNN
 F 3 "~" H 4600 2250 50  0001 C CNN
 F 4 "CL31B104KBCNNNC" H 0   0   50  0001 C CNN "Part"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Vendor"
 	1    4600 2250
 	1    0    0    -1  
 $EndComp
@@ -452,6 +468,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6730 3600 50  0
 F 3 "~" H 6800 3600 50  0001 C CNN
 F 4 "1%" H 700 0   50  0001 C CNN "Tolerance"
 F 5 "RC0603FR-0710KL" H 700 0   50  0001 C CNN "Part"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    6800 3600
 	1    0    0    -1  
 $EndComp
@@ -486,6 +503,7 @@ F 1 ".1uF" H 5615 4255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5538 4150 50  0001 C CNN
 F 3 "~" H 5500 4300 50  0001 C CNN
 F 4 "CL31B104KBCNNNC" H 550 350 50  0001 C CNN "Part"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Vendor"
 	1    5500 4300
 	1    0    0    -1  
 $EndComp
@@ -511,6 +529,7 @@ F 1 "PAM2804" H 7250 2574 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" H 7250 2250 50  0001 C CNN
 F 3 "" H 7250 2250 50  0001 C CNN
 F 4 "PAM2804AAB010" H 700 0   50  0001 C CNN "Part"
+F 5 "Diodes Inc." H 0   0   50  0001 C CNN "Vendor"
 	1    7250 2250
 	1    0    0    -1  
 $EndComp
@@ -527,6 +546,7 @@ F 1 "MCP6002-xSN" H 6400 3626 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6400 3350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 3350 50  0001 C CNN
 F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "Vendor"
 	1    6400 3350
 	1    0    0    -1  
 $EndComp
@@ -539,6 +559,7 @@ F 1 "MCP6002-xSN" H 8150 4376 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8150 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8150 4100 50  0001 C CNN
 F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "Vendor"
 	2    8150 4100
 	1    0    0    -1  
 $EndComp
@@ -551,6 +572,7 @@ F 1 "MCP6002-xSN" H 5058 4255 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5100 4300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5100 4300 50  0001 C CNN
 F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "Vendor"
 	3    5100 4300
 	1    0    0    -1  
 $EndComp
@@ -563,6 +585,7 @@ F 1 "TLV431" H 4300 4145 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 4200 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 4300 4350 50  0001 C CIN
 F 4 "TLV431AFTA" H 4300 4350 50  0001 C CNN "Part"
+F 5 "Diodes Inc." H 0   0   50  0001 C CNN "Vendor"
 	1    4300 4350
 	0    -1   -1   0   
 $EndComp
@@ -598,6 +621,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 3050 50  0
 F 3 "~" H 5800 3050 50  0001 C CNN
 F 4 "1%" H -2100 0   50  0001 C CNN "Tolerance"
 F 5 "RC0603FR-0710KL" H -2100 0   50  0001 C CNN "Part"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    5800 3050
 	-1   0    0    1   
 $EndComp
@@ -611,6 +635,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 3450 50  0
 F 3 "~" H 5800 3450 50  0001 C CNN
 F 4 "RC0603FR-078K06L" H -1600 400 50  0001 C CNN "Part"
 F 5 "1%" H -1600 400 50  0001 C CNN "Tolerance"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    5800 3450
 	-1   0    0    1   
 $EndComp
@@ -669,6 +694,7 @@ F 1 "5k" V 7584 3050 50  0000 C CNN
 F 2 "ledcont:TC33X" H 7700 3050 50  0001 C CNN
 F 3 "~" H 7700 3050 50  0001 C CNN
 F 4 "TC33X-2-502E" V 7700 3050 50  0001 C CNN "Part"
+F 5 "Bourns Inc." H 0   0   50  0001 C CNN "Vendor"
 	1    7700 3050
 	0    -1   1    0   
 $EndComp
@@ -691,6 +717,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8030 3050 50  0
 F 3 "~" H 8100 3050 50  0001 C CNN
 F 4 "1%" H 200 0   50  0001 C CNN "Tolerance"
 F 5 "RC0603FR-0710KL" H 200 0   50  0001 C CNN "Part"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    8100 3050
 	0    -1   -1   0   
 $EndComp
@@ -719,6 +746,7 @@ F 1 "0" H 8620 3805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8480 3850 50  0001 C CNN
 F 3 "~" H 8550 3850 50  0001 C CNN
 F 4 "RC0603FR-070RL" H 1800 50  50  0001 C CNN "Part"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    8550 3850
 	1    0    0    -1  
 $EndComp
@@ -733,6 +761,7 @@ F 1 "0" H 6870 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6730 2850 50  0001 C CNN
 F 3 "~" H 6800 2850 50  0001 C CNN
 F 4 "RC0603FR-070RL" H 50  -950 50  0001 C CNN "Part"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Vendor"
 	1    6800 2850
 	1    0    0    -1  
 $EndComp
