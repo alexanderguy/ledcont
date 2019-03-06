@@ -1,6 +1,6 @@
 # Dimming LED Controller
 
-![Schematic Preview](./schematic.png)
+![3D Board Rendering ](./images/3drender.png)
 
 This is a basic dimming LED controller, designed for being run from one or more batteries (~3.25-6 volts).  It includes:
 
@@ -12,6 +12,9 @@ This is a basic dimming LED controller, designed for being run from one or more 
 It takes about 1.5 hours to assemble if you're: building your first board, finding parts in the process, binging The Americans.
 
 # Modifications
+
+![Schematic Preview](./images/schematic.png)
+
 There are a number of modifications possible:
 
 - Change R4/R7 to provide the low-voltage shutdown point.
@@ -20,6 +23,8 @@ There are a number of modifications possible:
 - Don't populate D2/U2/RV1 (and supporting components) if dimming isn't needed (pull-up on EN needed).
 
 # Wiring
+
+![PCB Layers](./images/pcblayers.png)
 
 1. Make sure the switching potentiometer is turned off (i.e past the switch detent, counter-clockwise).
 2. Attach your LED(s) to J2 Pin 1/+ and J2 Pin 2/-.
