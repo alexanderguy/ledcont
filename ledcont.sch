@@ -212,7 +212,7 @@ F 1 "10k" H 7180 4045 50  0000 R CNN
 F 2 "ledcont:P091_S" H 7250 4000 50  0001 C CNN
 F 3 "~" H 7250 4000 50  0001 C CNN
 F 4 "P091S-FC20BR10K" H 500 -200 50  0001 C CNN "Part"
-F 5 "TT Electronics" H 0   0   50  0001 C CNN "Vendor"
+F 5 "BI Electronics" H 0   0   50  0001 C CNN "Vendor"
 	1    7250 4000
 	1    0    0    1   
 $EndComp
@@ -225,7 +225,7 @@ F 1 "10k" H 5088 2305 50  0001 L CNN
 F 2 "ledcont:P091_S" H 4950 2350 50  0001 C CNN
 F 3 "~" H 4950 2350 50  0001 C CNN
 F 4 "P091S-FC20BR10K" H 0   0   50  0001 C CNN "Part"
-F 5 "TT Electronics" H 0   0   50  0001 C CNN "Vendor"
+F 5 "BI Electronics" H 0   0   50  0001 C CNN "Vendor"
 	2    4950 2350
 	1    0    0    -1  
 $EndComp
@@ -378,7 +378,7 @@ F 1 "D_Schottky" H 3400 1975 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 3400 2100 50  0001 C CNN
 F 3 "~" H 3400 2100 50  0001 C CNN
 F 4 "NRVTS245ESFT1G" H 0   0   50  0001 C CNN "Part"
-F 5 "On Semiconductor" H 0   0   50  0001 C CNN "Vendor"
+F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Vendor"
 	1    3400 2100
 	-1   0    0    1   
 $EndComp
@@ -546,7 +546,7 @@ F 1 "MCP6002-xSN" H 6400 3626 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6400 3350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 3350 50  0001 C CNN
 F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
-F 5 "Microchip Technology" H 0   0   50  0001 C CNN "Vendor"
+F 5 "Microchip" H 0   0   50  0001 C CNN "Vendor"
 	1    6400 3350
 	1    0    0    -1  
 $EndComp
@@ -559,7 +559,7 @@ F 1 "MCP6002-xSN" H 8150 4376 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8150 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8150 4100 50  0001 C CNN
 F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
-F 5 "Microchip Technology" H 0   0   50  0001 C CNN "Vendor"
+F 5 "Microchip" H 0   0   50  0001 C CNN "Vendor"
 	2    8150 4100
 	1    0    0    -1  
 $EndComp
@@ -572,7 +572,7 @@ F 1 "MCP6002-xSN" H 5058 4255 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5100 4300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5100 4300 50  0001 C CNN
 F 4 "MCP6002T-I/SN" H 0   0   50  0001 C CNN "Part"
-F 5 "Microchip Technology" H 0   0   50  0001 C CNN "Vendor"
+F 5 "Microchip" H 0   0   50  0001 C CNN "Vendor"
 	3    5100 4300
 	1    0    0    -1  
 $EndComp
@@ -694,7 +694,7 @@ F 1 "5k" V 7584 3050 50  0000 C CNN
 F 2 "ledcont:TC33X" H 7700 3050 50  0001 C CNN
 F 3 "~" H 7700 3050 50  0001 C CNN
 F 4 "TC33X-2-502E" V 7700 3050 50  0001 C CNN "Part"
-F 5 "Bourns Inc." H 0   0   50  0001 C CNN "Vendor"
+F 5 "Bourns" H 0   0   50  0001 C CNN "Vendor"
 	1    7700 3050
 	0    -1   1    0   
 $EndComp
